@@ -1,0 +1,19 @@
+
+asgiref            3.2.10
+certifi            2024.2.2
+charset-normalizer 3.3.2
+Django             3.1
+goo                0.8
+greenlet           3.0.3
+humanfriendly      10.0
+idna               3.7
+pip                23.2.1
+pyreadline3        3.4.1
+pytz               2024.1
+requests           2.32.3
+setuptools         65.5.0
+SQLAlchemy         2.0.30
+sqlparse           0.5.0
+typing_extensions  4.12.0
+tzdata             2024.1
+urllib3            2.2.1
