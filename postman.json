@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "623f9941-e406-4834-af41-9aa9bf5c00b2",
+		"name": "googleMap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35577664"
+	},
+	"item": [
+		{
+			"name": "google_maps_api_keypApi",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "?google_maps_api_key=AIzaSyDyAjafL9bcpNO-rYbt3CVxce03k4O6F4g",
+					"query": [
+						{
+							"key": "google_maps_api_key",
+							"value": "AIzaSyDyAjafL9bcpNO-rYbt3CVxce03k4O6F4g"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
