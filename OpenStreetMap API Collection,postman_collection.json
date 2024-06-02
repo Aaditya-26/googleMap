@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "90d63a62-166c-4cbf-a6de-28af61e2b34e",
+		"name": "OpenStreetMap API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35577664"
+	},
+	"item": [
+		{
+			"name": "Geocode Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://nominatim.openstreetmap.org/search?q=1600 Amphitheatre Parkway, Mountain View, CA&format=json",
+					"protocol": "https",
+					"host": [
+						"nominatim",
+						"openstreetmap",
+						"org"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "1600 Amphitheatre Parkway, Mountain View, CA"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
